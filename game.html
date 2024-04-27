@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mokalstart | play</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/game.css">
+</head>
+
+<body>
+    <span id="loader"></span>
+    <h4 id="error">something went wrong | please try again </h4>
+    <div id="container">
+        <div class="header">
+            <div>
+                <p>Qustion No : </p>
+                <span id="qusestion-number"> 1 </span>
+            </div>
+            <div>
+                <p>score : </p>
+                <span id="score"> 0 </span>
+            </div>
+        </div>
+        <div class="question-box">
+            <h3 id="question-text">question text</h3>
+            <button class="answer-question">1</button>
+            <button class="answer-question">2</button>
+            <button class="answer-question">3</button>
+            <button class="answer-question">4</button>
+        </div>
+        <button id="finish-button">Finish</button>
+        <button id="next-button">Next</button>
+    </div>
+
+
+    <script src="js/game.js"></script>
+</body>
+
+</html>
